@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+        const oppr = prompt ("Enter the operation you want to perform use + for add, * for multiplication, - for multiplication , and  / for division")
+        const firstNum = parseInt (prompt("Enter first number"))
+        const secondNum = parseInt (prompt("Enter second number"))
+
+        switch(oppr){
+            case "+":
+            console.log(firstNum + secondNum)
+            break
+            case "-":
+            console.log(firstNum - secondNum)
+            break
+            case "*":
+            console.log(firstNum * secondNum)
+            break
+            case "/":
+            console.log(firstNum / secondNum)
+            break
+        }
+    </script>
+</body>
+</html>
